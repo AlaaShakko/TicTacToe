@@ -5,11 +5,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
+
     <item
         android:id="@+id/menu"
         android:onClick="newGame"
         android:title="New Game"
-        app:showAsAction="always"
-        />
+        app:showAsAction="always" />
+    <item
+        android:onClick="saveGame"
+        android:title="Save"
+        app:showAsAction="always" />
+    <item
+        android:onClick="loadGame"
+        android:title="Load"
+        app:showAsAction="always" />
 
 </menu>
